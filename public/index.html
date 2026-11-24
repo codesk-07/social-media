@@ -1,0 +1,77 @@
+<!-- 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+</head>
+<body>
+    <h1>Post</h1>
+    <form id="post_details">
+        <div id="image_link">
+        <label>Image url:</label>
+        <input id="url" type="url" >
+        </div>
+        <div id="description_det">
+        <label>Description:</label>
+        <input id="description" type="text">
+        </div>
+
+        <div id="button">  
+                  <button id="post_image">POST</button>
+         </div>
+    
+    <div id="image_posted">
+
+    </div>
+    <div id="comments"> 
+
+    </div>
+
+        
+    </form>
+    
+</body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Social Media App</h1>
+
+    <div class="post-form">
+        <input
+            type="text"
+            id="imageUrl"
+            placeholder="Paste image URL"
+        >
+
+        <textarea
+            id="description"
+            placeholder="Write something..."
+        ></textarea>
+
+        <button id="postBtn">Create Post</button>
+    </div>
+
+    <h2>Posts Feed</h2>
+
+    <div id="postsContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
